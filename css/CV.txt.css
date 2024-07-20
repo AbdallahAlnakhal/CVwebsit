@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+}
+
+body{
+	background: linear-gradient(to right, #221f1f, #e6e2e9);
+    
+}
+.all {
+    
+    margin-right: 1000px;
+}
+.about{
+    background: linear-gradient(to right, #221f1f, #e6e2e9);
+    display: flex;
+    padding-bottom: 100px;
+}
+.about .welcom-img{
+width: 35%;
+}
+.about .welcom-img img{
+    width: 500px;
+    }
+    .about .text-welcome h1 {
+        color: #dba719;
+        font-size: 100px;
+        padding-left: 50px;
+        padding-bottom: 300px;
+        margin-top: 110px;
+        }
+        
+
+.resume{
+	width: 1800px;
+	background: #fff;
+	margin: 25px auto;
+	display: flex;
+}
+
+.left{
+	background: #292b2f;
+	width: 250px;
+	padding: 0 20px;
+}
+
+/* .right{
+	width: calc(100% - 250px);
+} */
+
+.left .img_holder{
+	text-align: center;
+	padding: 20px 0;
+    
+}
+
+.left .img_holder img{
+	width: 200px;
+    height: 290px;
+	border-radius:100%;
+}
+
+.pb{
+	padding-bottom: 40px;
+}
+
+.title{
+	font-size: 37px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: #df8c0f;
+	position: relative;
+	text-align: right;
+	margin-bottom: 15px;
+    margin-right: 1100px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 50px;
+	height: 3px;
+	background: #df8c0f;
+    padding-left: 300px;
+    
+}
+
+.left .icon{
+	font-size: 20px;
+	color: #000000;
+}
+
+.left .text{
+	color: #333035;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.contact .li_wrap{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact .li_wrap .icon{
+	width: 50px;
+	height: 50px;
+	background: #df8c0f;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.contact .li_wrap .text{
+	width: calc(100% - 50px);
+	word-break: break-word;
+	color: #fff;
+}
+
+.skills ul,
+.hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skills .li_wrap,
+.hobbies .li_wrap{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills .li_wrap{
+	background: #df8c0f;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+	margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+	border: 2px solid #df8c0f;
+}
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+	color: rgb(0, 0, 0);
+}
+
+.hobbies .li_wrap:hover{
+	background: #df8c0f;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+	color: #000000;
+}
+
+.header{
+	background: #292b2f;
+	padding: 15px 30px;
+	color: #fff;
+	height: 240px;
+}
+
+.header .name{
+	font-size: 52px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #df8c0f;
+}
+
+.header .role{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.header .about{
+	margin-top: 20px;
+	line-height: 26px;
+}
+
+.right_inner{
+	padding: 30px;
+	color: #292b2f;
+}
+
+.right_inner .education{
+	margin-top: 30px;
+}
+
+.right_inner .li_wrap{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date {
+    width: 125px;
+    color: #000000;
+}
+
+.right_inner .li_wrap .info{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position: relative;
+}
+
+.right_inner .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #df8c0f;
+}
+
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont{
+	margin-top: 15px;
+}
+
+.right_inner .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #df8c0f;
+	border-radius: 50%;
+}
+
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #df8c0f;
+} 
+.about-me{
+    padding-top: 10px;
+}
+.about-me h2{
+    color: #df8c0f;
+}
